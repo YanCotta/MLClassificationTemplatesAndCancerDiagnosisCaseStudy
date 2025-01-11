@@ -8,6 +8,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+from sklearn.metrics import confusion_matrix, accuracy_score
 
 # Dataset requirements:
 # - Clean, normalized data
@@ -41,8 +42,17 @@ classifier.fit(X_train, y_train)
 
 # Evaluation metrics
 y_pred = classifier.predict(X_test)
+
+# Calculating and displaying the Confusion Matrix
 cm = confusion_matrix(y_test, y_pred)
 print("\nConfusion Matrix:")
 print(cm)
+
+# Calculating and displaying the Accuracy Score
 accuracy = accuracy_score(y_test, y_pred)
 print(f"\nAccuracy Score: {accuracy:.2f}")
+
+# Optional: Display classification report for more detailed metrics
+from sklearn.metrics import classification_report
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
