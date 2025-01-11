@@ -72,6 +72,7 @@ Included is a breast cancer diagnostic dataset (`Data.csv`) from the UCI Machine
 10. Class (2 for benign, 4 for malignant)
 
 This medical dataset provides a real-world application of classification algorithms in cancer diagnosis.
+You'll see that by applying this dataset to all the ML models templates, the highest accuracy will come from the Decision Tree model, that surprisingly beats the Kernel SVM model.
 
 ## Usage
 
