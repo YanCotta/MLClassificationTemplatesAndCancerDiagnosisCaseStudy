@@ -1,6 +1,6 @@
 # Machine Learning Classification Templates
 
-This repository provides ready-to-use templates for common machine learning classification algorithms implemented in Python using scikit-learn + a medical dataset that provides a real-world application of classification algorithms in cancer diagnosis.
+This repository provides ready-to-use templates for common supervised machine learning classification algorithms implemented in Python using scikit-learn.
 
 ## Overview
 
@@ -49,30 +49,6 @@ These templates are designed to help you quickly implement and compare different
 - Best for: Complex classification tasks
 - Advantages: High accuracy, handles overfitting
 - Limitations: Less interpretable, computationally intensive
-
-## Example Dataset: Breast Cancer Classification
-
-Included is a breast cancer diagnostic dataset (`Data.csv`) from the UCI Machine Learning Repository.
-
-### Dataset Information
-- **Features**: 10 real-valued features computed from digitized breast mass images
-- **Target**: Binary classification (2 = benign, 4 = malignant)
-- **Samples**: 699 instances
-
-### Features Description
-1. Clump Thickness
-2. Uniformity of Cell Size
-3. Uniformity of Cell Shape
-4. Marginal Adhesion
-5. Single Epithelial Cell Size
-6. Bare Nuclei
-7. Bland Chromatin
-8. Normal Nucleoli
-9. Mitoses
-10. Class (2 for benign, 4 for malignant)
-
-This medical dataset provides a real-world application of classification algorithms in cancer diagnosis.
-You'll see that by applying this dataset to all the ML models templates, the highest accuracy will come from the Decision Tree model, that surprisingly beats the Kernel SVM model.
 
 ## Usage
 
