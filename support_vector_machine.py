@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.metrics import confusion_matrix, accuracy_score
 
-# Dataset requirements:
+# Dataset requirements
 # - Clean, normalized data
 # - No missing values
 # - Numeric features (encode categorical variables)
